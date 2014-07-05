@@ -8,6 +8,11 @@ default: &default
   adapter: postgresql
   pool: 5
   timeout: 5000
+  host: ec2-54-243-47-196.compute-1.amazonaws.com
+  username: uubxxketedscbp
+  port: 5432
+  password: jLpJ_v025Y1EyOHQay0SC1Mo5T
+  database: d3hk0guvealjo1
 
 development:
   <<: *default
