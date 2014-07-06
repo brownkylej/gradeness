@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'model/Teacher'
+
+  get 'model/first_name:string'
+
+  get 'model/last_name:string'
+
   resources :schools
 
   get 'account' => 'account#index'
